@@ -6,7 +6,6 @@
   3. 拨掉sim卡
   4. 把nexon.com这个域名走代理（不能走锁区的国家节点），也可以全局代理
   5. 打开游戏就可以正常更新并完成第一次登录
-
 2. 已完成上一步之后的进游戏免拔卡方法
 - 使用Quantumult**X**解锁（必须有QuantumultX这个app，**非国区**能购买）
 - 注意是Quantumult**X**不是Quantumult，末尾多了个X
