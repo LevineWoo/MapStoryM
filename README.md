@@ -22,7 +22,7 @@
       3. 策略 - `Proxy`*（懂的话可以自行操作，不懂就按我的建议先）*
    2. 重写 - 引用 - 右上角回形针
       1. 标签 - 随意
-      2. 资源路径`https://gitee.com/gd_wulw/hawthorn-piece/raw/master/MapStoryM.conf`
+      2. 资源路径`https://raw.githubusercontent.com/LevineWoo/MapStoryM/main/mapleStoryM.conf`
       3. 右上角保存
       4. 右上角全部更新
       5. 把**冒险岛M解锁**这个重写规则左边的勾去掉先
