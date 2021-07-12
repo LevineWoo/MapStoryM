@@ -1,1 +1,197 @@
+var body = $response.body;
+var obj = {
+    "errorCode":0,
+    "result":{
+        "service":{
+            "title":"MapleStory M Global",
+            "buildVer":"2",
+            "policyApiVer":"2",
+            "termsApiVer":"2",
+            "useTPA":0,
+            "useGbNpsn":0,
+            "useGbKrpc":0,
+            "useGbArena":0,
+            "useGbJppc":0,
+            "useToyBanDialog":0,
+            "grbRating":"",
+            "networkCheckSampleRate":"0.1",
+            "nkMemberAccessCode":"0",
+            "useIdfaCollection":1,
+            "useIdfaDialog":0,
+            "useIdfaDialogNTest":0,
+            "useNexonOTP":0,
+            "useRegionLock":0,
+            "loginUIType":"1",
+            "useNxo":"0",
+            "clientId":"MTY3MDg3NDAy",
+            "useMemberships":[
+                101,
+                103,
+                102,
+                110,
+                9999
+            ],
+            "useMembershipsInfo":{
+                "nexonNetSecretKey":"",
+                "nexonNetProductId":"",
+                "nexonNetRedirectUri":""
+            }
+        },
+        "endBanner":{
 
+        },
+        "basePlate":[
+            {
+                "group":0,
+                "title":""
+            },
+            {
+                "group":1,
+                "title":"楓之谷M",
+                "items":[
+                    {
+                        "code":"notice",
+                        "index":12262,
+                        "meta":{
+
+                        },
+                        "title":"公告"
+                    },
+                    {
+                        "code":"cc",
+                        "index":12263,
+                        "meta":{
+
+                        },
+                        "title":"客服中心"
+                    },
+                    {
+                        "code":"faq",
+                        "index":12264,
+                        "meta":{
+
+                        },
+                        "title":"常見問答"
+                    },
+                    {
+                        "code":"url",
+                        "index":12265,
+                        "meta":{
+                            "url":"https://m.nexon.com/forum/board/722-遊戲指南",
+                            "query":""
+                        },
+                        "title":"遊戲介紹"
+                    },
+                    {
+                        "code":"terms",
+                        "index":12266,
+                        "meta":{
+
+                        },
+                        "title":"使用條款"
+                    },
+                    {
+                        "code":"account",
+                        "index":12267,
+                        "meta":{
+
+                        },
+                        "title":"我的帳號"
+                    },
+                    {
+                        "code":"push_sms",
+                        "index":12650,
+                        "meta":{
+                            "push_label":"允許發送推播",
+                            "phone_label":"允許發送推播",
+                            "email_label":"允許發送推播"
+                        },
+                        "title":"推播 & 社群平台"
+                    }
+                ]
+            },
+            {
+                "group":2,
+                "title":""
+            },
+            {
+                "group":3,
+                "title":""
+            },
+            {
+                "group":4,
+                "title":""
+            },
+            {
+                "group":5,
+                "title":""
+            },
+            {
+                "group":6,
+                "title":""
+            },
+            {
+                "group":7,
+                "title":""
+            },
+            {
+                "group":8,
+                "title":""
+            },
+            {
+                "group":9,
+                "title":""
+            }
+        ],
+        "country":"TW",
+        "idfa":{
+            "dialog":[
+
+            ],
+            "externalImgUrl":"",
+            "imgUrl":"",
+            "language":""
+        },
+        "termsAgree":[
+            {
+                "termID":27,
+                "title":"用戶授權與使用條款",
+                "type":[
+
+                ],
+                "optional":0,
+                "isAgree":1,
+                "isUpdate":0
+            },
+            {
+                "termID":29,
+                "title":"NEXON隱私權規範",
+                "type":[
+
+                ],
+                "optional":0,
+                "isAgree":1,
+                "isUpdate":0
+            }
+        ],
+        "isPrivacyConsigned":-1,
+        "useLocalPolicy":[
+            "0",
+            "0"
+        ],
+        "enableLogging":false,
+        "enablePlexLogging":false,
+        "enableForcePingLogging":false,
+        "userArenaRegion":-1,
+        "offerwall":{
+            "id":0,
+            "title":""
+        }
+    },
+    "errorText":"成功",
+    "errorDetail":""
+}
+
+body = JSON.stringify(obj);
+
+$done(body);
